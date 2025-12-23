@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_SERVER_PORT"] = os.environ.get("PORT", "8501")
 import streamlit as st
 import pickle
 import json
